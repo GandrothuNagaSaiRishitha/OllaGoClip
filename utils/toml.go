@@ -90,7 +90,7 @@ func GetConfigPath() (string, error) {
 		return "", err
 	}
 
-	configFile := filepath.Join(home, ".c3l.toml")
+	configFile := filepath.Join(home, ".OllaClip.toml")
 	return configFile, nil
 }
 
